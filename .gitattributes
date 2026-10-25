@@ -1,0 +1,7 @@
+# Batch files MUST use CRLF line endings. With LF endings cmd.exe can mis-locate
+# labels for GOTO/CALL (it seeks by byte offset in 512-byte blocks), causing
+# random "cannot find the batch label" failures.
+*.cmd text eol=crlf
+*.bat text eol=crlf
+
+*.md  text eol=lf
