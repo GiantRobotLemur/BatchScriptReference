@@ -1,8 +1,10 @@
-# BatchScriptReference
+# Batch Script Reference
 
-Reference and code snippets for Windows Batch scripting.
+**A reference and set of code snippets for Windows Batch scripting**
 
-A dense reference for writing `cmd.exe` batch scripts, aimed at people who already program in other languages. It also includes a library of tested, reusable batch functions and a model script to start from. Everything here uses only what ships with Windows: no PowerShell, no downloads, no signing.
+---
+
+This repository contains dense reference for writing Windows batch scripts, aimed at people who already program in other languages. It also includes a library of tested, reusable batch functions and a model script to start from. Everything here uses only what ships with Windows: no PowerShell, no downloads, no signing.
 
 Examples were run on Windows 11. Behaviour that is surprising, undocumented, or easy to get wrong is marked *verified* where it was reproduced while writing these pages.
 
